@@ -15,7 +15,7 @@ module.exports = {
       colors: {
         primary: "#1B88F4",
         secondary: "#F3F9FF",
-        orange: "#FF7724",
+        org: "#FF7724",
         dark: "#212731",
         darkText: "#2C384A",
         darkLightText: "#4b5665",
@@ -25,7 +25,7 @@ module.exports = {
       backgroundColor: {
         primary: "#1B88F4",
         secondary: "#F3F9FF",
-        orange: "#FF7724",
+        org: "#FF7724",
         darkText: "2C384A",
         darkLightText: "#4b5665",
         dark: "#212731",

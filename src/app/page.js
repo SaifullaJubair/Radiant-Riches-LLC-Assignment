@@ -1,9 +1,10 @@
+import TitleNav from "@/components/ui/TitleNav";
 import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="">
-      <h1 className="text-3xl py-8 text-darkText"> Home Page</h1>
+    <div className="max-w-5xl mx-auto">
+      <TitleNav />
     </div>
   );
 };
