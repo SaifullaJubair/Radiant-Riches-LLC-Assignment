@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="bg-dark text-[#D1D6DA]">
-        <div className="max-w-screen-xl flex flex-row-reverse md:flex-row flex-wrap items-center justify-around mx-auto p-3.5 ">
+        <div className="max-w-screen-xl flex flex-row-reverse md:flex-row flex-wrap items-center justify-between md:justify-around mx-auto p-3.5 ">
           <div className="flex items-center">
             <div className="flex ">
               {/* Search icon */}

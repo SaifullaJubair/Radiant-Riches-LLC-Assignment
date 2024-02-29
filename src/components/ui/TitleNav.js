@@ -5,12 +5,12 @@ const TitleNav = () => {
   return (
     <div>
       {/* Title section  */}
-      <h1 className="text-darkText text-5xl pt-16 tracking-wide pb-6">
+      <h1 className="text-darkText text-3xl md:text-5xl pt-10 lg:pt-16 tracking-wide pb-6">
         Best Website builders in the US
       </h1>
       {/* Border section */}
       <div className="border-y-2  border-b-[#E1E4E6] w-full py-3">
-        <div className="flex flex-wrap gap-8 text-darkLightText items-center">
+        <div className="flex flex-wrap gap-8 text-darkLightText items-center mx-2 lg:mx-0">
           <div className="flex gap-4">
             <FaRegCircleCheck className="text-[#626E79] text-xl " />
             <p className="text-sm">Last Update- February 22,20</p>

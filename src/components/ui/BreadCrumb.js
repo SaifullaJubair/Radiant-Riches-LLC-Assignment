@@ -4,7 +4,7 @@ const BreadCrumb = () => {
   return (
     <div>
       <nav aria-label="Breadcrumb">
-        <ol className="flex items-center gap-2 text-[#5C6874] text-sm">
+        <ol className="flex items-center gap-2 text-[#5C6874] text-sm flex-wrap mx-2 lg:mx-0">
           <li>
             <Link href="#" className="block transition hover:text-gray-700">
               {" "}
