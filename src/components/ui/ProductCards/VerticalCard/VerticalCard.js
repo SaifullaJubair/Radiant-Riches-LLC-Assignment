@@ -3,7 +3,8 @@ import pic1 from "../../../../assets/pic.png";
 import { getAllWebsites } from "@/utils/getAllWebsites";
 
 const VerticalCard = async () => {
-  const data = await getAllWebsites();
+  const data = (await getAllWebsites()).slice(0, 3);
+
   return (
     <div>
       <div className="my-8">
