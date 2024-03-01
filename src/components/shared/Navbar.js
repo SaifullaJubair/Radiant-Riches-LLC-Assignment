@@ -135,7 +135,7 @@ const Navbar = () => {
               <Link href={"/website_builders"}>
                 <li>Website Builders</li>
               </Link>
-              <Link href={"/website_builders"}>
+              <Link href={"/deals"}>
                 <li>Today’s deals</li>
               </Link>
             </ul>
