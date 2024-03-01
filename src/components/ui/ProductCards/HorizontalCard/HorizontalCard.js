@@ -19,12 +19,19 @@ const HorizontalCard = () => {
       </div>
       <div className="grid grid-cols-12  gap-2">
         {/* Img section */}
-
-        <div className="  md:col-span-3  mx-auto flex items-center justify-center">
-          <Image height={110} width={141} src={pic1} alt="" />
+        {/* 1st col */}
+        <div className=" col-span-12 lg:col-span-3  mx-auto flex items-center justify-center">
+          <Image
+            height={300}
+            width={300}
+            src={pic1}
+            alt=""
+            className="lg:py-4 py-10"
+          />
         </div>
+        {/* 2nd col */}
         {/* details section */}
-        <div className="md:col-span-6 mx-2">
+        <div className="col-span-12 sm:col-span-8 lg:col-span-6 mx-2 lg:my-0 my-8">
           <div className=" ">
             <p className="text-darkLightText ">
               <span className="text-darkText font-bold">
@@ -45,8 +52,9 @@ const HorizontalCard = () => {
             </button>
           </div>
         </div>
+        {/* 3rd col */}
         {/* review and vew section */}
-        <div className="md:col-span-3 mx-2 flex item-center flex-col justify-between">
+        <div className="col-span-12 sm:col-span-4 lg:col-span-3 mx-2 flex item-center flex-col justify-between">
           {/* rating section */}
           <div className="pb-4 ">
             <div className="rounded-b-xl bg-[#F3F9FF] px-4 -mt-4 pb-2 flex flex-col items-center justify-center w-[135px] mx-auto">

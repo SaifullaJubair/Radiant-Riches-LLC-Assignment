@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <div className="w-full my-6">
+    <div className="w-full my-12">
       <div className="flex justify-between flex-col md:flex-row">
         <h1 className="text-[32px] text-darkLightText w-full md:w-1/2 ">
           Sign up and get exclusive special deals
